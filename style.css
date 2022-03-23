@@ -1,0 +1,22 @@
+body {
+  background-image: url("images/pexels-photo-5412087.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Poppins, sans-serif;
+}
+
+.card {
+  margin-top: 450px;
+  font-weight: bold;
+  color: rgb(255, 46, 99);
+  margin-left: 37%;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 10px #888888;
+  width: fit-content;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  padding-right: 30px;
+  border-radius: 7px;
+  text-align: center;
+}
