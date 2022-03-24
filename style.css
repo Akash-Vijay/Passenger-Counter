@@ -5,7 +5,7 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-.card, #increment-btn {
+.card {
   margin-top: 380px;
   font-weight: bold;
   color: rgb(255, 46, 99);
@@ -21,13 +21,26 @@ body {
   text-align: center;
 }
 
-#increment-btn {
- 
+.btn {
+margin-left: 485px;
+}
+
+#decrement-btn, #increment-btn {
+  margin-top: 30px;
+  font-weight: bold;
+  color: rgb(255, 46, 99);
+  margin-left: 10px;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 10px #888888;
+  width: fit-content;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  padding-right: 30px;
+  border-radius: 7px;
+  text-align: center;
   font-size: 18px;
-  margin-top: 15px;
-  margin-left: 44%;
   border: none;
-  padding-bottom: 5px;
   cursor: pointer;
   transition: 0.15s;
 }
@@ -36,6 +49,14 @@ body {
   background-color: rgba(240, 248, 255, 0.562);
 }
 
+#decrement-btn:hover {
+  background-color: rgba(240, 248, 255, 0.562);
+}
+
 #increment-btn:active {
+  background-color: rgb(240, 248, 255);
+}
+
+#decrement-btn:active {
   background-color: rgb(240, 248, 255);
 }
