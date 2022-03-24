@@ -1,6 +1,7 @@
 let count = 0;
 let value = document.getElementById("count");
-
+let data = "";
+let prevData = document.getElementById("prev-data");
 
 
 //Increment function
@@ -10,10 +11,14 @@ function increment() {
   return count;
 }
 
-
 //Decrement function
 function decrement() {
   count -= 1;
-  value.innerText = count
+  value.innerText = count;
   return count;
+}
+
+//Save fucntion
+function save() {
+  prevData.innerHTML += count + " | ";
 }
