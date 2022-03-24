@@ -1,6 +1,5 @@
 let count = 0;
 let value = document.getElementById("count");
-let data = "";
 let prevData = document.getElementById("prev-data");
 
 
