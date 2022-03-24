@@ -22,10 +22,10 @@ body {
 }
 
 .btn {
-margin-left: 485px;
+margin-left: 415px;
 }
 
-#decrement-btn, #increment-btn {
+#decrement-btn, #increment-btn, #save-btn {
   margin-top: 30px;
   font-weight: bold;
   color: rgb(255, 46, 99);
@@ -45,18 +45,10 @@ margin-left: 485px;
   transition: 0.15s;
 }
 
-#increment-btn:hover {
+#increment-btn:hover, #decrement-btn:hover, #save-btn:hover {
   background-color: rgba(240, 248, 255, 0.562);
 }
 
-#decrement-btn:hover {
-  background-color: rgba(240, 248, 255, 0.562);
-}
-
-#increment-btn:active {
-  background-color: rgb(240, 248, 255);
-}
-
-#decrement-btn:active {
+#increment-btn:active, #decrement-btn:active, #save-btn:active {
   background-color: rgb(240, 248, 255);
 }
