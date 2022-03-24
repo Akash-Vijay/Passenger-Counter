@@ -2,7 +2,6 @@ let count = 0;
 let value = document.getElementById("count");
 let prevData = document.getElementById("prev-data");
 
-
 //Increment function
 function increment() {
   count += 1;
@@ -19,5 +18,5 @@ function decrement() {
 
 //Save fucntion
 function save() {
-  prevData.innerHTML += count + " | ";
+  prevData.textContent += count + " | ";
 }
