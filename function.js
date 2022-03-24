@@ -1,1 +1,3 @@
-document.getElementById("count").innerText;
+function increment() {
+  
+}

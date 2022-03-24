@@ -5,8 +5,8 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-.card {
-  margin-top: 450px;
+.card, #increment-btn {
+  margin-top: 380px;
   font-weight: bold;
   color: rgb(255, 46, 99);
   margin-left: 37%;
@@ -19,4 +19,14 @@ body {
   padding-right: 30px;
   border-radius: 7px;
   text-align: center;
+}
+
+#increment-btn {
+ 
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 44%;
+  border: none;
+  padding-bottom: 5px;
+  cursor: pointer;
 }
